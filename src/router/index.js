@@ -13,6 +13,7 @@ export const privateRoutes = [
     {path: '/error', component: <Error/>, exact: true},
 
     {path: '*', component: <Navigate to="/error"/>, exact: true},
+    {path: 'login', component: <Navigate to="/posts"/>, exact: true},
     {path: '/', component: <Navigate to="/posts"/>, exact: true},
 ]
 
